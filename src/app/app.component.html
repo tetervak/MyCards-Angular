@@ -1,7 +1,7 @@
 <app-header></app-header>
-
-
-
-<h2>Hello!</h2>
-
-<app-footer name="Alex Tetervak"></app-footer>
+<main>
+    <p>You picked <span class="cardName">{{card.name}}</span></p>
+    <p><img [src]="imgSrc" [alt]="card.name" width="72" height="96"></p>
+    <p><a (click)="next()">Next Card</a></p>
+</main>
+<app-footer name="Applied Computing"></app-footer>
