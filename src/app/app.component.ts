@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 import {CardFactory} from "./card-factory";
 import {Card} from "./card";
 
